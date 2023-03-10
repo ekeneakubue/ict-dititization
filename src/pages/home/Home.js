@@ -34,12 +34,12 @@ export default function Home() {
         <Row className='courses'>          
           <Col md={4}><div className='box text-left' data-toggle="tooltip" data-placement="top" title="HTML is Hypertext Markup Language"><i class="bi bi-arrow-right text-primary arrow-icon"></i> HTML</div></Col>
           <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> CSS</div></Col>
-          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> HTML/CSS</div></Col>
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> JavaScript</div></Col>
         </Row>
         <Row className='courses'>          
-          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> HTML</div></Col>
-          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> CSS</div></Col>
-          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> HTML/CSS</div></Col>
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> ReactJs/Redux</div></Col>
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> NodeJs/ExpressJs</div></Col>
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> MongoDB</div></Col>
         </Row>
       </Container>
     </>
