@@ -1,13 +1,13 @@
 import React from 'react'
-import './Ourteam.css'
+import './Bootcamp.css'
 
-export default function Ourteam() {
+export default function Bootcamp() {
   return (
     <div>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Our-Team</li>
+          <li class="breadcrumb-item active" aria-current="page">Bootcamp</li>
         </ol>
       </nav>
     </div>

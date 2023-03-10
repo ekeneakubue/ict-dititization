@@ -7,13 +7,39 @@ export default function Home() {
     <>
       <Container>
         <Row className='home__main'>
-          <Col md={9} className='get'>
-            <h2 className='text-left'>Get to Know Us</h2><hr className='bg-warning'/>
-            <p className='text-justify'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <Col md={6}>
+            <div className='left-txt'>
+              <h3 className='text-center txt1'>Learn to code with our</h3>
+              <h1 className='text-primary text-center txt2'>Full Stack MERN Bootcamp</h1>
+              <p className='text-left'>This Program gives you essential full-stack developer skills by bringing together modern coding techniques and the intensity of a programming bootcamp. We will focus on building react apps, using MongoDB, ExpressJS, React and NodeJS.</p>
+              <div className='justify-content-center'>
+                <button type="button" class="btn btn-primary btn1">Apply Now</button>
+                <button type="button" class="btn btn-outline-primary btn1">Download Curriculum</button>
+              </div>
+            </div>
           </Col>
-          <Col md={3} className='bg-info'>
-            Latest News<hr className='bg-light'/>
+          <Col md={6}>            
+            <img className='img-fluid banner' src='https://images.unsplash.com/photo-1556636530-6b7482d80e3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80' alt='banner'/>                    
           </Col>
+        </Row>
+
+        <Row className=''>          
+          <Col md={5} className=''><hr className='bg-primary'/></Col>
+          <Col md={2}>
+            <div className='course-title'>Our Courses</div>
+          </Col>
+          <Col md={5}><hr className='bg-primary'/></Col>
+        </Row>
+
+        <Row className='courses'>          
+          <Col md={4}><div className='box text-left' data-toggle="tooltip" data-placement="top" title="HTML is Hypertext Markup Language"><i class="bi bi-arrow-right text-primary arrow-icon"></i> HTML</div></Col>
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> CSS</div></Col>
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> HTML/CSS</div></Col>
+        </Row>
+        <Row className='courses'>          
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> HTML</div></Col>
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> CSS</div></Col>
+          <Col md={4}><div className='box text-left'><i class="bi bi-arrow-right text-primary arrow-icon"></i> HTML/CSS</div></Col>
         </Row>
       </Container>
     </>

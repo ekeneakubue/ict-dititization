@@ -1,7 +1,63 @@
 .home__main{
     margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
-.get{
+.left-txt{
+    margin-top: 1rem;
+}
+
+.txt1{
+    font-size: 300%;
+    font-weight: 1000;
+    line-height: 40px;
+}
+
+.txt2{
+    font-size: 400%;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 2rem;
+}
+
+.banner{
+    margin-bottom: 2rem;
+}
+
+.btn1{
+    margin-right: 2rem;
+    min-width: 15vw; 
+    margin-bottom: 2rem;  
+}
+
+.courses{
+    /* padding-top: 5rem;     */
+    margin-bottom: 0;
+}
+
+.course-title{
+    padding: 2px;
+    background-color: rgb(236, 239, 243);
+    border-radius: 20px;
+}
+
+.box{
     padding: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: rgb(220, 220, 228);
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.box:hover{
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: rgb(220, 220, 228);
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.arrow-icon{
+    font-weight: bold;
+    margin-right: 1rem;
 }
